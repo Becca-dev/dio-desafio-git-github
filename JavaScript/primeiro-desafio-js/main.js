@@ -1,4 +1,5 @@
 /*
+Faça um programa para calcular o valor de uma viagem
 
 Terá 3 variaveis, sendo elas:
 - Preço do combustível;
