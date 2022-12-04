@@ -1,3 +1,6 @@
+/*
+    Variaveis para a criação dos cards onde irá receber os pokémons
+ */
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
@@ -5,6 +8,9 @@ const maxRecords = 151
 const limit = 10
 let offset = 0;
 
+/* 
+    Função para crair os cards
+*/
 function convertPokemonToLi(pokemon) {
     return `
         <li class="pokemon ${pokemon.type}">
