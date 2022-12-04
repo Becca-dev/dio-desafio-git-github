@@ -5,3 +5,7 @@ aqui vira a minha evolução dentro do bootcamp da [DIO](https://web.dio.me/trac
 ## Tecnologia utilizada
 
 - JavaScript;
+
+- HTML5
+
+- CSS3

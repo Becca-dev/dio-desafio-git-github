@@ -12,6 +12,6 @@ Neste desafio foi desenvolvido uma página web com o tema Pokémons.
 
 - JavaScript
 
-## Links Utilizados
+## Links úteis
 
 [Pokéapi](https://pokeapi.co/)
