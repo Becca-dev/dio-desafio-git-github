@@ -1,3 +1,6 @@
+/**
+    Integração da API 
+ */
 const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail) {

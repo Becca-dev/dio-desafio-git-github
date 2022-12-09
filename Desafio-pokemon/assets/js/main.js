@@ -4,8 +4,8 @@
 const pokemonList = document.getElementById('pokemonList')
 const loadMoreButton = document.getElementById('loadMoreButton')
 
-const maxRecords = 151
-const limit = 10
+const maxRecords = 151;
+const limit = 10;
 let offset = 0;
 
 /* 
@@ -49,3 +49,11 @@ loadMoreButton.addEventListener('click', () => {
         loadPokemonItens(offset, limit)
     }
 })
+
+/*
+    Função para subir para o top ta tela 
+*/
+
+function scrollToTop(){
+    window.scrollTo(0,0);
+}
