@@ -10,10 +10,6 @@
     background-color: #a6a877;
 }
 
-.normal {
-    background-color: #a6a877;
-}
-
 .grass {
     background-color: #77c850;
 }
@@ -142,7 +138,7 @@
 }
 
 .pagination button {
-    padding: .45rem .5rem;
+    padding: 1rem 1rem;
     margin: .45rem 0;
     font-size: .900rem;
     color: #fff;
@@ -169,7 +165,7 @@
     position: fixed;
     bottom: 30px ;
     right: 30px;
-    padding: 10px 15px;
+    padding: .50rem .50rem;
     background-color: #6c79db;
     border-radius: 50px;
     border-radius: 5px solid #fff;
