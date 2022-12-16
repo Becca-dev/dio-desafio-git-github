@@ -1,3 +1,3 @@
-const alunos = ["Rebeca", "Renan", "Panda"];
+const alunos = ["Rebeca", "Renan", "Panda","Dirce", "Zeneida"];
 
-console.log(alunos[3]);
+console.log(alunos[4]);

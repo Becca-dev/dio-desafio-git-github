@@ -10,10 +10,11 @@
 
 */
 
-const nota1 = 5;
-const nota2 = 3;
-const nota3 = 7;
+let nota1 = 7;
+let nota2 = 9;
+let nota3 = 7;
 const media = (nota1 + nota2 + nota3) / 3;
+
 
 console.log(media);
 
@@ -24,4 +25,3 @@ if (media < 5){
 } else {
     console.log("Parabens, você Passou.")
 }
-    

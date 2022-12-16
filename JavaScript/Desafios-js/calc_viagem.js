@@ -14,7 +14,7 @@ Terá 5 variaveis, sendo elas:
 const precoGasolina = 6.10;
 const precoEtenal = 5.79
 const KmPorLitros = 10;
-const distanciaEmKm = 100;
+const distanciaEmKm = 1000;
 const tipoCombustivo = "Gasolina"; 
 
 const litrosConsumidos = distanciaEmKm / KmPorLitros;
