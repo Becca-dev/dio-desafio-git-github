@@ -9,4 +9,3 @@ export const ButtonContainer = styled.button`
     font-weight: 700;
     flex: 1;
 `
-
