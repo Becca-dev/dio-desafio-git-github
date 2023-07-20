@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.main {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #fff; 
+    border-radius: 1rem;
+}
+
+.main::before {
+    content:'';
+    background-image: url('');
+    background-image: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 300px;
+    z-index: -1;
+}
+
+@media only screen and (min-width: 760px){
+    .main {
+        max-width: 1024px;
+        margin: 1rem auto;
+    }
+}

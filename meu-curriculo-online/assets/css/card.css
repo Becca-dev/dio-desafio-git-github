@@ -1,0 +1,46 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem 0;
+    border: 1px solid #fff;
+    border-radius: 1rem;
+}
+
+.card:hover{
+     background-color: #55569E;
+     border-color: #55569E; 
+}
+
+.card .trigger {  
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    background-color: transparent;
+    color: #fff;
+    border: none; 
+}
+
+.card .trigger:hover {
+    cursor: pointer;
+}
+
+.card .trigger::after {
+    content:'';
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card.open .trigger::after{
+    trasform: rotate
+}
+    
+.card .content {
+    display: none;
+}
+
